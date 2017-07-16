@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 on Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/publication_types/8/index.xml</link>
+    <description>Recent content in 8 on Rodrigo Souza&#39;s Den</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Rodrigo Souza</copyright>
+    <atom:link href="/publication_types/8/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Um processo de transformação de arquiteturas de sistemas legados baseado em Reengenharia</title>
+      <link>http://www.rodrigosouza.net.br/publication/msc_dissertation/</link>
+      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/msc_dissertation/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+
+From the moment software products are delivered, they go through a series of modifications during their life-cycle. The maintenance process can either be corrective or evolutionary/adaptive. A corrective process is used to fix implementation errors and an evolutionary/adaptive process is used to improve performance and structure or other attributes, or to adapt the product to a changed environment, according to requests from users. When it comes to evolutionary maintenance, software reengineering plays a fundamental role, since working teams responsible for maintenance projects frequently do not have enough knowledge about the system they will be working with. The purpose of this dissertation is to present a process that gives directions for maintenance processes that require software architecture modifications, encouraging the usage of design patterns by the means of reengineering technics. This paper will also present a case study where a software system works as an instructive example of how the process can be used, as well as some difficulties found throughout the elaboration of this work. Finally, this paper will present conclusions and suggestions for future studies in the software systems reengineering field.
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

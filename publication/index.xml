@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/publication/index.xml</link>
+    <description>Recent content in Publications on Rodrigo Souza&#39;s Den</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Rodrigo Souza</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Trends of stellar entropy along stellar evolution</title>
+      <link>http://www.rodrigosouza.net.br/publication/trends%20entropy_RAA/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/trends%20entropy_RAA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold Quark Matter in Nature: Theory and Observations</title>
+      <link>http://www.rodrigosouza.net.br/publication/phd_thesis/</link>
+      <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/phd_thesis/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+
+The main goal of this work is the study of cold quark matter in neutron stars from phase transitions of hadronic matter to quark matter. In this work, after presenting important aspects of stellar evolution and the theory of neutron stars, we review two frameworks designed to calculate the structure of the stars in the relativistic regime: the canonical Tolman-Oppenheimer-Volkoff equations and the so called &#39;new paradigm&#39; Einstein-Maxwell-Fermi, where we conclude that the Einstein-Maxwell-Fermi model has some inconsistencies, being inadequate for the treatment of stars with hybrid equation of state, and the fact that using the atomic model as a starting point already has the property of the local non-neutrality as a built-in feature.
+
+To describe the hadronic phase in this work we studied the SWRDP model, which considers hyperons and the effects of many-body forces simulated by the nonlinear selfcoupling and the meson-meson contributions. The matter of quarks was described by two approaches: the QCD Mean Field Theory (MFTQCD) and QCD Infrared Extension (QCDIRE). The approach used to make the connection between hadronic matter and the cold quark matter was a first order phase transition using the Maxwell construction. For the SWRDP+MFTQCD combination, the phase transition is possible, since both conditions for the Maxwell construction were met for a set of parameters. For the SWRDP+QCDIRE combination, it was not possible to obtain a hybrid equation of state. Next, the hybrid state equations were integrated using the Tolman-Oppenheimer-Volkoff equations and obtained maximum masses for some sets of parameters that are in agreement with observations of pulsars PSR J1614-2230
+$(M=1.97 \pm 0.04 \; M\_{\odot})$ and PSR J0348+0432 ($M = 2.01 \pm 0.04 M_{\odot}$).
+
+
+Regarding the parameters, we conclude that only the equations of state which present stiff hadronic matter and soft quark cores (within the parameter space) are able to generate maximum masses high enough to agree with observations. Regarding the QCDIRE model, the equation of state does not allow phase transitions given the hadronic model used, and also does not allow masses larger than $0.66 M_{\odot}$.
+
+This may be due to the fact that there is no ad hoc interactions in the model, but also indicates that accounting for confinement does not guarantee applicable equations of state in realistic situations.
+
+In this work we present some results regarding the entropy of the neutron stars, followed by a introduction to information theory, which we used to evaluate the preference of different equations of state by Nature. We concluded that models with quark cores where the cold quark matter is characterized by low interaction between hard gluons and quarks, combined with stiffer hadronic state equations are more likely to occur in Nature from the perspective of information theory.
+
+Finally, we show the studies about the unparticles model and the results with respect to the stars Procyon B and Stein 2051B, along with the procedure we used to obtain the mass of the propagator of the theory using the Chandrasekhar limit for white dwarfs.
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolution of stellar entropy</title>
+      <link>http://www.rodrigosouza.net.br/publication/entropy_astronomische_nachrichten/</link>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/entropy_astronomische_nachrichten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information theoretical methods as discerning quantifiers of the equations of state of neutron stars</title>
+      <link>http://www.rodrigosouza.net.br/publication/info_theoretical_EOSs_PLA/</link>
+      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/info_theoretical_EOSs_PLA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing the parameter space for unparticle-inspired models using white dwarf masses</title>
+      <link>http://www.rodrigosouza.net.br/publication/unparticles/</link>
+      <pubDate>Fri, 06 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/unparticles/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Um processo de transformação de arquiteturas de sistemas legados baseado em Reengenharia</title>
+      <link>http://www.rodrigosouza.net.br/publication/msc_dissertation/</link>
+      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/publication/msc_dissertation/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+
+From the moment software products are delivered, they go through a series of modifications during their life-cycle. The maintenance process can either be corrective or evolutionary/adaptive. A corrective process is used to fix implementation errors and an evolutionary/adaptive process is used to improve performance and structure or other attributes, or to adapt the product to a changed environment, according to requests from users. When it comes to evolutionary maintenance, software reengineering plays a fundamental role, since working teams responsible for maintenance projects frequently do not have enough knowledge about the system they will be working with. The purpose of this dissertation is to present a process that gives directions for maintenance processes that require software architecture modifications, encouraging the usage of design patterns by the means of reengineering technics. This paper will also present a case study where a software system works as an instructive example of how the process can be used, as well as some difficulties found throughout the elaboration of this work. Finally, this paper will present conclusions and suggestions for future studies in the software systems reengineering field.
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
