@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/tags/</link>
+    <description>Recent content in Tags on Rodrigo Souza&#39;s Den</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>http://www.rodrigosouza.net.br/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>http://www.rodrigosouza.net.br/tags/github/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutron_stars</title>
+      <link>http://www.rodrigosouza.net.br/tags/neutron_stars/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/tags/neutron_stars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>http://www.rodrigosouza.net.br/tags/programming/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qcd</title>
+      <link>http://www.rodrigosouza.net.br/tags/qcd/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/tags/qcd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
