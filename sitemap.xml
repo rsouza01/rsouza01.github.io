@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://www.rodrigosouza.net.br/post/lectures/</loc>
+      <lastmod>2018-01-18T22:35:34-03:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://www.rodrigosouza.net.br/post/</loc>
       <lastmod>2017-06-13T22:37:43-03:00</lastmod>
     </url>
@@ -50,7 +59,7 @@
     
     <url>
     
-      <loc>http://www.rodrigosouza.net.br/publication/trends%20entropy_RAA/</loc>
+      <loc>http://www.rodrigosouza.net.br/publication/trends-entropy_raa/</loc>
       <lastmod>2016-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +68,7 @@
     
     <url>
     
-      <loc>http://www.rodrigosouza.net.br/talk/GRHAFITE_2016/</loc>
+      <loc>http://www.rodrigosouza.net.br/talk/grhafite_2016/</loc>
       <lastmod>2016-05-31T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +131,7 @@
     
     <url>
     
-      <loc>http://www.rodrigosouza.net.br/publication/info_theoretical_EOSs_PLA/</loc>
+      <loc>http://www.rodrigosouza.net.br/publication/info_theoretical_eoss_pla/</loc>
       <lastmod>2014-11-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -206,13 +215,19 @@
     
     <url>
     
-      <loc>http://www.rodrigosouza.net.br/tags/github/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>http://www.rodrigosouza.net.br/categories/</loc>
       <priority>0</priority>
     </url>
     
   
     
+    
+    <url>
+    
+      <loc>http://www.rodrigosouza.net.br/tags/github/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
     
   
     
@@ -250,6 +265,7 @@
     <url>
     
       <loc>http://www.rodrigosouza.net.br/publication_types/</loc>
+      <lastmod>2016-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -279,6 +295,7 @@
     <url>
     
       <loc>http://www.rodrigosouza.net.br/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

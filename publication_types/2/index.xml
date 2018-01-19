@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Rodrigo Souza&#39;s Den</title>
-    <link>http://www.rodrigosouza.net.br/publication_types/2/index.xml</link>
+    <link>http://www.rodrigosouza.net.br/publication_types/2/</link>
     <description>Recent content in 2 on Rodrigo Souza&#39;s Den</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Rodrigo Souza</copyright>
-    <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
+    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trends of stellar entropy along stellar evolution</title>
-      <link>http://www.rodrigosouza.net.br/publication/trends%20entropy_RAA/</link>
+      <link>http://www.rodrigosouza.net.br/publication/trends-entropy_raa/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.rodrigosouza.net.br/publication/trends%20entropy_RAA/</guid>
+      <guid>http://www.rodrigosouza.net.br/publication/trends-entropy_raa/</guid>
       <description></description>
     </item>
     
@@ -29,10 +30,10 @@
     
     <item>
       <title>Information theoretical methods as discerning quantifiers of the equations of state of neutron stars</title>
-      <link>http://www.rodrigosouza.net.br/publication/info_theoretical_EOSs_PLA/</link>
+      <link>http://www.rodrigosouza.net.br/publication/info_theoretical_eoss_pla/</link>
       <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.rodrigosouza.net.br/publication/info_theoretical_EOSs_PLA/</guid>
+      <guid>http://www.rodrigosouza.net.br/publication/info_theoretical_eoss_pla/</guid>
       <description></description>
     </item>
     
