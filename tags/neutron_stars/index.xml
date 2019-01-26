@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/neutron_stars/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.rodrigosouza.net.br/tags/neutron_stars/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Neutron Stars</title>

@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
     <lastBuildDate>Tue, 13 Jun 2017 22:37:43 -0300</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.rodrigosouza.net.br/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Leonard Susskind Physical Minimum Lectures on Youtube.</title>
@@ -16,14 +18,10 @@
       <pubDate>Thu, 18 Jan 2018 22:35:34 -0300</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/post/lectures/</guid>
-      <description>&lt;p&gt;Leo Susskind, one of the bright ones that brought us string theory, has an extensive collection of academic lectures as part of their Stanford&amp;rsquo;s Continuing Studies Series. I am pointing here to a web resource collecting all these lectures.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/&#34; target=&#34;_blank&#34;&gt;https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Professor Susskind has also a blog at&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://susskindsblogphysicsforeveryone.blogspot.com&#34; target=&#34;_blank&#34;&gt;http://susskindsblogphysicsforeveryone.blogspot.com&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Leo Susskind, one of the bright ones that brought us string theory, has an extensive collection of academic lectures as part of their Stanford&amp;rsquo;s Continuing Studies Series. I am pointing here to a web resource collecting all these lectures.
+https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/
+Professor Susskind has also a blog at
+http://susskindsblogphysicsforeveryone.blogspot.com</description>
     </item>
     
     <item>
@@ -32,8 +30,7 @@
       <pubDate>Tue, 13 Jun 2017 22:35:34 -0300</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/post/first_post/</guid>
-      <description>&lt;p&gt;Nothing much to add for the moment, just playing around with the authoring tool and &lt;a href=&#34;https://app.wercker.com/rsouza01/rsouza01.github.src&#34; target=&#34;_blank&#34;&gt;Wercker&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Nothing much to add for the moment, just playing around with the authoring tool and Wercker.</description>
     </item>
     
   </channel>

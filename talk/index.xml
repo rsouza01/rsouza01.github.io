@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.rodrigosouza.net.br/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cold Quark Matter in the Universe</title>
@@ -16,8 +18,7 @@
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/talk/grhafite_2016/</guid>
-      <description>&lt;p&gt;The cold quark matter with high chemical potential can exist in nature only inside the neutron stars. In this talk we will present some results of the study of hybrid state equations of cold quark matter in this type of star, from hadron $\rightarrow$ quarks phase transitions using Maxwell&amp;rsquo;s construction. To describe the hadronic phase will be presented the SWRDP model (Gomes et al, 2015), which considers the presence of hyperons and the effects of many body forces. The quark matter is described through two approaches: the QCD Medium Field Theory (MFTQCD, &lt;a href=&#34;https://arxiv.org/abs/1012.5266&#34; target=&#34;_blank&#34;&gt;Fogaça &amp;amp; Navarra, 2011&lt;/a&gt;) and the QCDRE Infrared Extension (QCDIRE, &lt;a href=&#34;https://arxiv.org/abs/1505.04760&#34; target=&#34;_blank&#34;&gt;Mintz et al, 2015, 2011&lt;/a&gt;).&lt;/p&gt;
-</description>
+      <description>The cold quark matter with high chemical potential can exist in nature only inside the neutron stars. In this talk we will present some results of the study of hybrid state equations of cold quark matter in this type of star, from hadron $\rightarrow$ quarks phase transitions using Maxwell&amp;rsquo;s construction. To describe the hadronic phase will be presented the SWRDP model (Gomes et al, 2015), which considers the presence of hyperons and the effects of many body forces.</description>
     </item>
     
     <item>
@@ -26,24 +27,7 @@
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/talk/phd_thesis_defense/</guid>
-      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
-
-The main goal of this work is the study of cold quark matter in neutron stars from phase transitions of hadronic matter to quark matter. In this work, after presenting important aspects of stellar evolution and the theory of neutron stars, we review two frameworks designed to calculate the structure of the stars in the relativistic regime: the canonical Tolman-Oppenheimer-Volkoff equations and the so called &#39;new paradigm&#39; Einstein-Maxwell-Fermi, where we conclude that the Einstein-Maxwell-Fermi model has some inconsistencies, being inadequate for the treatment of stars with hybrid equation of state, and the fact that using the atomic model as a starting point already has the property of the local non-neutrality as a built-in feature.
-
-To describe the hadronic phase in this work we studied the SWRDP model, which considers hyperons and the effects of many-body forces simulated by the nonlinear selfcoupling and the meson-meson contributions. The matter of quarks was described by two approaches: the QCD Mean Field Theory (MFTQCD) and QCD Infrared Extension (QCDIRE). The approach used to make the connection between hadronic matter and the cold quark matter was a first order phase transition using the Maxwell construction. For the SWRDP+MFTQCD combination, the phase transition is possible, since both conditions for the Maxwell construction were met for a set of parameters. For the SWRDP+QCDIRE combination, it was not possible to obtain a hybrid equation of state. Next, the hybrid state equations were integrated using the Tolman-Oppenheimer-Volkoff equations and obtained maximum masses for some sets of parameters that are in agreement with observations of pulsars PSR J1614-2230
-$(M=1.97 \pm 0.04 \; M\_{\odot})$ and PSR J0348+0432 ($M = 2.01 \pm 0.04 M_{\odot}$).
-
-
-Regarding the parameters, we conclude that only the equations of state which present stiff hadronic matter and soft quark cores (within the parameter space) are able to generate maximum masses high enough to agree with observations. Regarding the QCDIRE model, the equation of state does not allow phase transitions given the hadronic model used, and also does not allow masses larger than $0.66 M_{\odot}$.
-
-This may be due to the fact that there is no ad hoc interactions in the model, but also indicates that accounting for confinement does not guarantee applicable equations of state in realistic situations.
-
-In this work we present some results regarding the entropy of the neutron stars, followed by a introduction to information theory, which we used to evaluate the preference of different equations of state by Nature. We concluded that models with quark cores where the cold quark matter is characterized by low interaction between hard gluons and quarks, combined with stiffer hadronic state equations are more likely to occur in Nature from the perspective of information theory.
-
-Finally, we show the studies about the unparticles model and the results with respect to the stars Procyon B and Stein 2051B, along with the procedure we used to obtain the mass of the propagator of the theory using the Chandrasekhar limit for white dwarfs.
-
-&lt;/div&gt;
-</description>
+      <description>The main goal of this work is the study of cold quark matter in neutron stars from phase transitions of hadronic matter to quark matter. In this work, after presenting important aspects of stellar evolution and the theory of neutron stars, we review two frameworks designed to calculate the structure of the stars in the relativistic regime: the canonical Tolman-Oppenheimer-Volkoff equations and the so called &#39;new paradigm&#39; Einstein-Maxwell-Fermi, where we conclude that the Einstein-Maxwell-Fermi model has some inconsistencies, being inadequate for the treatment of stars with hybrid equation of state, and the fact that using the atomic model as a starting point already has the property of the local non-neutrality as a built-in feature.</description>
     </item>
     
     <item>
@@ -52,18 +36,10 @@ Finally, we show the studies about the unparticles model and the results with re
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/talk/debugging_2014/</guid>
-      <description>&lt;p&gt;Every programmer probably had some training in learning a language or framework &amp;ndash; but how did you learn to fix the defects in your software?&lt;/p&gt;
-
-&lt;p&gt;When you fell in love with programming (or at least decided it was a remunerative career), you probably thought of it as a creative endeavor. You&amp;rsquo;d design great software, write the code, and poof! - it&amp;rsquo;d work perfectly the first time.&lt;/p&gt;
-
-&lt;p&gt;Yeah. Right.&lt;/p&gt;
-
-&lt;p&gt;In the real world, you spent a bunch of your time debugging code rather than writing new stuff.
-You can too-easily picture the days you spent looking for the Bug From Hell, and its effect on your project schedule.
-However, people usually focus on tools, such as languages or frameworks, and not on meta-techniques, such as &amp;ldquo;How to find that bug in two hours instead of two days.&amp;rdquo; Languages may come and go, and so will IDE debuggers, but the ability to discern under which rock your bug is hiding is one that will stay with you forever.&lt;/p&gt;
-
-&lt;p&gt;This talk is intended to present the first steps on the techniques of debugging software, from the very basics to a real world application using a modern integrated development environment with Python.&lt;/p&gt;
-</description>
+      <description>Every programmer probably had some training in learning a language or framework &amp;ndash; but how did you learn to fix the defects in your software?
+When you fell in love with programming (or at least decided it was a remunerative career), you probably thought of it as a creative endeavor. You&amp;rsquo;d design great software, write the code, and poof! - it&amp;rsquo;d work perfectly the first time.
+Yeah. Right.
+In the real world, you spent a bunch of your time debugging code rather than writing new stuff.</description>
     </item>
     
     <item>
@@ -72,8 +48,7 @@ However, people usually focus on tools, such as languages or frameworks, and not
       <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/talk/complexity_neutron_stars_firenze/</guid>
-      <description>&lt;p&gt;Recently, it has been suggested that a critical electrical field arises during the gravitational collapse of massive stars leading to a vacuum polarization. This, in turn, leads to the necessity of a reexamination of the gravito-electrodynamical properties of compact stars of the class of neutron stars. Rotondo, Rueda, Ruffini and Xue claim to have proved the impossibility of local charge neutrality and then solved the coupled system of the general relativistic Thomas-Fermi-Einstein-Maxwell equations for the structure of neutron stars. Within the same approach of Avellar and Horvath (2012) we have calculated how the global neutrality hypothesis affects the order/disorder of these systems for a simple equation of state. We show the relative preference of local vs. global conservation in terms of the obtained information content of the systems under consideration.&lt;/p&gt;
-</description>
+      <description>Recently, it has been suggested that a critical electrical field arises during the gravitational collapse of massive stars leading to a vacuum polarization. This, in turn, leads to the necessity of a reexamination of the gravito-electrodynamical properties of compact stars of the class of neutron stars. Rotondo, Rueda, Ruffini and Xue claim to have proved the impossibility of local charge neutrality and then solved the coupled system of the general relativistic Thomas-Fermi-Einstein-Maxwell equations for the structure of neutron stars.</description>
     </item>
     
     <item>
@@ -82,12 +57,7 @@ However, people usually focus on tools, such as languages or frameworks, and not
       <pubDate>Tue, 25 May 2004 00:00:00 +0000</pubDate>
       
       <guid>http://www.rodrigosouza.net.br/talk/msc_dissertation_defense/</guid>
-      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
-
-From the moment software products are delivered, they go through a series of modifications during their life-cycle. The maintenance process can either be corrective or evolutionary/adaptive. A corrective process is used to fix implementation errors and an evolutionary/adaptive process is used to improve performance and structure or other attributes, or to adapt the product to a changed environment, according to requests from users. When it comes to evolutionary maintenance, software reengineering plays a fundamental role, since working teams responsible for maintenance projects frequently do not have enough knowledge about the system they will be working with. The purpose of this dissertation is to present a process that gives directions for maintenance processes that require software architecture modifications, encouraging the usage of design patterns by the means of reengineering technics. This paper will also present a case study where a software system works as an instructive example of how the process can be used, as well as some difficulties found throughout the elaboration of this work. Finally, this paper will present conclusions and suggestions for future studies in the software systems reengineering field.
-
-&lt;/div&gt;
-</description>
+      <description>From the moment software products are delivered, they go through a series of modifications during their life-cycle. The maintenance process can either be corrective or evolutionary/adaptive. A corrective process is used to fix implementation errors and an evolutionary/adaptive process is used to improve performance and structure or other attributes, or to adapt the product to a changed environment, according to requests from users. When it comes to evolutionary maintenance, software reengineering plays a fundamental role, since working teams responsible for maintenance projects frequently do not have enough knowledge about the system they will be working with.</description>
     </item>
     
   </channel>

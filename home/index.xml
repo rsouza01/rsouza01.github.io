@@ -8,7 +8,72 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
     <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.rodrigosouza.net.br/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.rodrigosouza.net.br/home/about/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/about/</guid>
+      <description>Biography I have been a hobbyist programmer since 1982, but I have worked professionally as a systems analyst/software engineer and developer since 1996. Among my skills, I have been working with Internet technologies for 17+ years, specifically in the banking sector. I am proficient in enterprise systems architecture and system modeling using object-oriented techniques, from analysis to implementation and testing. I coordinate teams of 2-6 developers in both from-scratch systems and maintenance and re-engineering systems (such as client-server systems for the web environment), mainly using Java (Struts/JSF/Spring) and .</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://www.rodrigosouza.net.br/home/posts/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://www.rodrigosouza.net.br/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.rodrigosouza.net.br/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.rodrigosouza.net.br/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>http://www.rodrigosouza.net.br/home/links/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/links/</guid>
+      <description> Physics Forums Arxiv Introduction to QCD Advanced Field Theory 3Blue1Brown  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.rodrigosouza.net.br/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rodrigosouza.net.br/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
