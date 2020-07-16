@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R.A. de Souza | Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/author/r.a.-de-souza/</link>
+      <atom:link href="http://www.rodrigosouza.net.br/author/r.a.-de-souza/index.xml" rel="self" type="application/rss+xml" />
+    <description>R.A. de Souza</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Rodrigo Souza</copyright><lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.rodrigosouza.net.br/img/portrait-2.png</url>
+      <title>R.A. de Souza</title>
+      <link>http://www.rodrigosouza.net.br/author/r.a.-de-souza/</link>
+    </image>
+    
+    <item>
+      <title>Trends of stellar entropy along stellar evolution</title>
+      <link>http://www.rodrigosouza.net.br/publication/trends-entropy_raa/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://www.rodrigosouza.net.br/publication/trends-entropy_raa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution of stellar entropy</title>
+      <link>http://www.rodrigosouza.net.br/publication/entropy_astronomische_nachrichten/</link>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.rodrigosouza.net.br/publication/entropy_astronomische_nachrichten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information theoretical methods as discerning quantifiers of the equations of state of neutron stars</title>
+      <link>http://www.rodrigosouza.net.br/publication/info_theoretical_eoss_pla/</link>
+      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://www.rodrigosouza.net.br/publication/info_theoretical_eoss_pla/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

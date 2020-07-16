@@ -1,79 +1,420 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.40.1" />
-  <meta name="author" content="Rodrigo Souza">
-  <meta name="description" content="Astrophysicist and Computer Scientist">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rodrigo de Souza">
 
   
   
   
     
   
+  <meta name="description" content="Scientist. Passionate about programming. Alternative music and physics addicted.">
+
   
-    
-    
-    <link rel="stylesheet" href="/css/highlight.min.css">
-    
-  
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
-  
-  <link rel="stylesheet" href="/css/blue.css">
+  <link rel="alternate" hreflang="en-us" href="http://www.rodrigosouza.net.br/">
+
   
 
-  <link rel="alternate" href="http://www.rodrigosouza.net.br/index.xml" type="application/rss+xml" title="Rodrigo Souza&#39;s Den">
-  <link rel="feed" href="http://www.rodrigosouza.net.br/index.xml" type="application/rss+xml" title="Rodrigo Souza&#39;s Den">
 
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99792574-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-99792574-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Rodrigo Souza&#39;s Den">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huf2b89bb3aeddaf27bedd36282c847631_765_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf2b89bb3aeddaf27bedd36282c847631_765_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="http://www.rodrigosouza.net.br/">
 
   
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Rodrigo Souza&#39;s Den">
+  <meta property="og:url" content="http://www.rodrigosouza.net.br/">
+  <meta property="og:title" content="Rodrigo Souza&#39;s Den">
+  <meta property="og:description" content="Scientist. Passionate about programming. Alternative music and physics addicted."><meta property="og:image" content="http://www.rodrigosouza.net.br/img/portrait-2.png">
+  <meta property="twitter:image" content="http://www.rodrigosouza.net.br/img/portrait-2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-07-16T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://www.rodrigosouza.net.br/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "http://www.rodrigosouza.net.br/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>Rodrigo Souza&#39;s Den</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Rodrigo Souza&#39;s Den</a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Rodrigo Souza&#39;s Den</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
         
 
         <li class="nav-item">
-          <a href="/#about" data-target="#about">
-            
-            <span>Home</span>
-          </a>
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
         </li>
 
         
@@ -81,11 +422,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#posts" data-target="#posts">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Posts</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
         </li>
 
         
@@ -93,11 +451,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#publications" data-target="#publications">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Publications</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -105,11 +480,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#talks" data-target="#talks">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Talks</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
         </li>
 
         
@@ -117,11 +509,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#projects" data-target="#projects">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Projects</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
         </li>
 
         
@@ -129,11 +538,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#links" data-target="#links">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Links</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#links" data-target="#links"><span>Links</span></a>
         </li>
 
         
@@ -141,11 +567,28 @@
 
         
 
-        <li class="nav-item">
-          <a href="/#contact" data-target="#contact">
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-            <span>Contact</span>
-          </a>
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
         </li>
 
         
@@ -153,116 +596,241 @@
 
         
 
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
         <li class="nav-item">
-          <a href="/pdf/rodrigo_cv_en.pdf" data-target="pdf/rodrigo_cv_en.pdf">
-            
-            <span>Resume</span>
-          </a>
+          <a class="nav-link " href="/pdf/rodrigo_cv_en.pdf"><span>Resume</span></a>
         </li>
 
         
         
+
+      
 
         
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
+  
 
-<span id="homepage" style="display: none"></span>
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
 
 
 
   
   
-  <section id="about" class="home-section">
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
     <div class="container">
       
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-  <div class="col-xs-12 col-md-4">
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
     <div id="profile">
 
       
-      <div class="portrait" style="background-image: url('http://www.rodrigosouza.net.br/img/portrait.jpg');">
-      </div>
-      <meta itemprop="image" content="http://www.rodrigosouza.net.br/img/portrait.jpg">
+      
+      <img class="avatar avatar-circle" src="/author/rodrigo-de-souza/avatar_hue721177ea58de899d62bd76a5b35adbf_17822_270x270_fill_q90_lanczos_center.jpg" alt="Rodrigo de Souza">
       
 
       <div class="portrait-title">
-        <h2 itemprop="name">Rodrigo Souza</h2>
-        <h3 itemprop="jobTitle">Astrophysicist and Computer Scientist</h3>
+        <h2>Rodrigo de Souza</h2>
+        <h3>Astrophysicist and Computer Scientist</h3>
+
         
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="http://www.iag.usp.br/" target="_blank" itemprop="url">
-            <span itemprop="name">USP/SP</span>
+        <h3>
+          <a href="http://www.iag.usp.br/" target="_blank" rel="noopener">
+          <span>USP/SP</span>
           </a>
         </h3>
         
       </div>
 
-      <link itemprop="url" href="http://www.rodrigosouza.net.br/">
-
-      <ul class="social-icon" aria-hidden="true">
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+        
+        
         
         
         <li>
-          <a itemprop="sameAs" href="mailto:rsouza01@gmail.com" target="_blank">
+          <a href="mailto:rsouza01@gmail.com" >
             <i class="fa fa-envelope big-icon"></i>
           </a>
         </li>
         
         
+        
+        
+        
+        
+        
+        
+          
+        
         <li>
-          <a itemprop="sameAs" href="https://twitter.com/r_souza01" target="_blank">
-            <i class="ai ai-twitter big-icon"></i>
+          <a href="http://lattes.cnpq.br/1697045209110423" target="_blank" rel="noopener">
+            <i class="ai ai-lattes big-icon"></i>
           </a>
         </li>
         
         
-        <li>
-          <a itemprop="sameAs" href="http://lattes.cnpq.br/1697045209110423" target="_blank">
-            <i class="ai ai-figshare big-icon"></i>
-          </a>
-        </li>
         
         
+        
+        
+        
+        
+          
+        
         <li>
-          <a itemprop="sameAs" href="https://scholar.google.com.br/citations?user=r3u-E8AAAAAJ" target="_blank">
+          <a href="https://scholar.google.com.br/citations?user=r3u-E8AAAAAJ" target="_blank" rel="noopener">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
         
         
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
         <li>
-          <a itemprop="sameAs" href="https://www.linkedin.com/in/rsouza01/" target="_blank">
-            <i class="fa fa-linkedin-square big-icon"></i>
+          <a href="https://www.linkedin.com/in/rsouza01/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin-in big-icon"></i>
           </a>
         </li>
         
         
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
         <li>
-          <a itemprop="sameAs" href="https://github.com/rsouza01" target="_blank">
-            <i class="fa fa-github big-icon"></i>
+          <a href="https://github.com/rsouza01" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
           </a>
         </li>
         
         
-        <li>
-          <a itemprop="sameAs" href="https://www.last.fm/pt/user/rsouza01" target="_blank">
-            <i class="fa fa-lastfm-square big-icon"></i>
-          </a>
-        </li>
         
         
+          
+        
+        
+        
+        
+        
+          
+        
         <li>
-          <a itemprop="sameAs" href="https://www.linuxcounter.net/user/570744" target="_blank">
-            <i class="fa fa-linux big-icon"></i>
+          <a href="https://www.last.fm/pt/user/rsouza01" target="_blank" rel="noopener">
+            <i class="fab fa-lastfm big-icon"></i>
           </a>
         </li>
         
@@ -270,19 +838,18 @@
 
     </div>
   </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
+  <div class="col-12 col-lg-8">
 
     
+    <h1>Biography</h1>
 
-<h1 id="biography">Biography</h1>
-
-<p>I have been a hobbyist programmer since 1982, but I have worked professionally as a systems analyst/software engineer and developer since 1996. Among my skills, I have been working with Internet technologies for 17+ years, specifically in the banking sector. I am proficient in enterprise systems architecture and system modeling using object-oriented techniques, from analysis to implementation and testing. I coordinate teams of 2-6 developers in both from-scratch systems and maintenance and re-engineering systems (such as client-server systems for the web environment), mainly using Java (Struts/JSF/Spring) and .NET Framework. I also have knowledge of interfaces between hardware and mobile platforms (USB/OBDII). In the academic field, I work with modeling of physical systems using techniques of numerical analysis and languages like Python, FORTRAN and C/C ++.</p>
+    <p>I have been a hobbyist programmer since 1982, but I have worked professionally as a systems analyst/software engineer and developer since 1996. Among my skills, I have been working with Internet technologies for 17+ years, specifically in the banking sector. I am proficient in enterprise systems architecture and system modeling using object-oriented techniques, from analysis to implementation and testing. I coordinate teams of 2-6 developers in both from-scratch systems and maintenance and re-engineering systems (such as client-server systems for the web environment), mainly using Java (Struts/JSF/Spring) and .NET Framework. I also have knowledge of interfaces between hardware and mobile platforms (USB/OBDII). In the academic field, I work with modeling of physical systems using techniques of numerical analysis and languages like Python, FORTRAN and C/C ++.</p>
 
 
     <div class="row">
 
       
-      <div class="col-sm-5">
+      <div class="col-md-5">
         <h3>Interests</h3>
         <ul class="ul-interests">
           
@@ -301,12 +868,12 @@
       
 
       
-      <div class="col-sm-7">
+      <div class="col-md-7">
         <h3>Education</h3>
         <ul class="ul-edu fa-ul">
           
           <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">PhD in High Energy Astrophysics, 2016</p>
               <p class="institution">University of São Paulo</p>
@@ -314,7 +881,7 @@
           </li>
           
           <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">BsC in Physics, 2010</p>
               <p class="institution">University of São Paulo</p>
@@ -322,7 +889,7 @@
           </li>
           
           <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">MsC in Electrical Engineering, 2004</p>
               <p class="institution">University of São Paulo</p>
@@ -330,7 +897,7 @@
           </li>
           
           <li>
-            <i class="fa-li fa fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">BsC in Computer Science, 1997</p>
               <p class="institution">University São Judas</p>
@@ -350,127 +917,441 @@
 
   
   
-  <section id="posts" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>Recent Posts</h1>
     
-    
-
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-12 col-lg-8">
 
     
 
     
       
         
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/physics/commutators/" >Commutators in classical and quantum physics</a>
+    </h3>
+
+    
+    <a href="/post/physics/commutators/" class="summary-link">
+      <div class="article-style">
+        I intend on publishing my thoughts about commutators here.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
         
 
-
-<div class="article-list-item" itemscope itemprop="blogPost">
-  
-  
-  <a href="http://www.rodrigosouza.net.br/post/lectures/">
-    <img src="/img/headers/susskind.jpg" class="article-banner" itemprop="image">
-  </a>
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="http://www.rodrigosouza.net.br/post/lectures/" itemprop="url">Leonard Susskind Physical Minimum Lectures on Youtube.</a>
-  </h3>
-  
 
 <div class="article-metadata">
 
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2018-01-18 22:35:34 -0300 -0300" itemprop="datePublished">
-      Thu, Jan 18, 2018
-    </time>
+    
+    
+      
+    
+    Jan 18, 2018
   </span>
+  
 
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
   
 
   
   
   
-  
 
   
+  
 
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Leo Susskind, one of the bright ones that brought us string theory, has an extensive collection of academic lectures as part of their Stanford&rsquo;s Continuing Studies Series. I am pointing here to a web resource collecting all these lectures.</p>
-
-<p><a href="https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/" target="_blank">https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/</a></p>
-
-<p>Professor Susskind has also a blog at</p>
-
-<p><a href="http://susskindsblogphysicsforeveryone.blogspot.com" target="_blank">http://susskindsblogphysicsforeveryone.blogspot.com</a></p>
-
-    
-  </div>
-  <p class="read-more">
-    <a href="http://www.rodrigosouza.net.br/post/lectures/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
 </div>
 
       
-        
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
         
 
 
-<div class="article-list-item" itemscope itemprop="blogPost">
+
+
+
+
+
+
+
+
+
+
   
-  
-  <h3 class="article-title" itemprop="name">
-    <a href="http://www.rodrigosouza.net.br/post/first_post/" itemprop="url">My first post!</a>
-  </h3>
-  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/physics/four-vectors/" >Four vectors deep dive</a>
+    </h3>
+
+    
+    <a href="/post/physics/four-vectors/" class="summary-link">
+      <div class="article-style">
+        I intend on publishing my thoughts about four vector here.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
 
 <div class="article-metadata">
 
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2017-06-13 22:35:34 -0300 -03" itemprop="datePublished">
-      Tue, Jun 13, 2017
-    </time>
+    
+    
+      
+    
+    Jan 18, 2018
   </span>
+  
 
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
   
 
   
   
   
-  
 
   
+  
 
-</div>
-
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Nothing much to add for the moment, just playing around with the authoring tool and <a href="https://app.wercker.com/rsouza01/rsouza01.github.src" target="_blank">Wercker</a>.</p>
-
-    
-  </div>
-  <p class="read-more">
-    <a href="http://www.rodrigosouza.net.br/post/first_post/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
 </div>
 
       
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/video-lectures/susskind-lectures/" >Leonard Susskind Physical Minimum Lectures on Youtube.</a>
+    </h3>
+
+    
+    <a href="/post/video-lectures/susskind-lectures/" class="summary-link">
+      <div class="article-style">
+        Leo Susskind, one of the bright ones that brought us string theory, has an extensive collection of academic lectures as part of their Stanford&rsquo;s Continuing Studies Series. I am pointing here to a web resource collecting all these lectures.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 18, 2018
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/first_post/" >My first post!</a>
+    </h3>
+
+    
+    <a href="/post/first_post/" class="summary-link">
+      <div class="article-style">
+        Nothing much to add for the moment, just playing around with the authoring tool and Wercker.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 13, 2017
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
     
 
   </div>
@@ -481,38 +1362,940 @@
 
   
   
-  <section id="publications" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="projects" class="home-section wg-portfolio   "  >
     <div class="container">
       
 
 
 
 
+
+
+
+
+
+
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Publications</h1>
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+    <div class="isotope projects-container js-layout-masonry ">
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-github js-id-open-source">
+  <div class="card">
+    
+    
+    <a href="https://github.com/AstroImages/astroimages-api" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/astroimages/featured_hu0356072323d52fe549c07200f10955de_84385_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/AstroImages/astroimages-api" target="_blank" rel="noopener">AstroImages</a></h4>
+      
+      <div class="article-style">
+        <p>REST API for listing processed images in FITS format.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-github js-id-open-source js-id-iot">
+  <div class="card">
+    
+    
+    <a href="https://github.com/IoT-Stuff" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/iot-stuff/featured_huf679788f385f2b81f2ae376b139fc936_87859_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/IoT-Stuff" target="_blank" rel="noopener">IoT-Stuff</a></h4>
+      
+      <div class="article-style">
+        <p>Pet project using AWS Iot Core</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/grhafite_2016/" >Cold Quark Matter in the Universe</a>
+    </h3>
+
+    
+    <a href="/talk/grhafite_2016/" class="summary-link">
+      <div class="article-style">
+        The cold quark matter with high chemical potential can exist in nature only inside the neutron stars. In this talk we will present some results of the study of hybrid state equations of cold quark matter in this type of star, from hadron $\rightarrow$ quarks phase transitions using Maxwell&rsquo;s construction.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          May 31, 2016 12:00 AM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>IF/USP</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/talk_grhafite_2016.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
     
     
   </div>
-  <div class="col-xs-12 col-md-8">
-    
+</div>
 
-    
-    <ul class="fa-ul">
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Trends of stellar entropy along stellar evolution</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/publication/trends-entropy_raa/">
-  Details
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/phd_thesis_defense/" >Existence of Cold Quark Matter in the Universe: Models and Observations</a>
+    </h3>
+
+    
+    <a href="/talk/phd_thesis_defense/" class="summary-link">
+      <div class="article-style">
+        The main goal of this work is the study of cold quark matter in neutron stars from phase transitions of hadronic matter to quark matter. In this work, after presenting important aspects of stellar evolution and the theory of neutron stars, we review two frameworks designed to calculate the structure of the stars in the relativistic regime: the canonical Tolman-Oppenheimer-Volkoff equations and the so called &lsquo;new paradigm&rsquo; Einstein-Maxwell-Fermi, where we conclude that the Einstein-Maxwell-Fermi model has some inconsistencies, being inadequate for the treatment of stars with hybrid equation of state, and the fact that using the atomic model as a starting point already has the property of the local non-neutrality as a built-in feature.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          May 3, 2016 12:00 AM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>IAG/USP</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/phd_defense_slides.pdf" target="_blank" rel="noopener">
+  Slides
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1509.05262">
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/debugging_2014/" >Debugging - Hints and techniques</a>
+    </h3>
+
+    
+    <a href="/talk/debugging_2014/" class="summary-link">
+      <div class="article-style">
+        Every programmer probably had some training in learning a language or framework &ndash; but how did you learn to fix the defects in your software?
+When you fell in love with programming (or at least decided it was a remunerative career), you probably thought of it as a creative endeavor.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jun 16, 2014 12:00 AM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>IAG/USP</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/DEBUGGING_2014.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/complexity_neutron_stars_firenze/" >Statistical measure of complexity in compact stars with global charge neutrality</a>
+    </h3>
+
+    
+    <a href="/talk/complexity_neutron_stars_firenze/" class="summary-link">
+      <div class="article-style">
+        Recently, it has been suggested that a critical electrical field arises during the gravitational collapse of massive stars leading to a vacuum polarization. This, in turn, leads to the necessity of a reexamination of the gravito-electrodynamical properties of compact stars of the class of neutron stars.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Mar 28, 2014 12:00 AM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Florence, Italy</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/complexity_in_compact_stars_with_global_charge_neutrality_Rodrigo_Souza.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/msc_dissertation_defense/" >Um processo de transformação de arquiteturas de Sistemas Legados baseado em Reengenharia</a>
+    </h3>
+
+    
+    <a href="/talk/msc_dissertation_defense/" class="summary-link">
+      <div class="article-style">
+        From the moment software products are delivered, they go through a series of modifications during their life-cycle. The maintenance process can either be corrective or evolutionary/adaptive. A corrective process is used to fix implementation errors and an evolutionary/adaptive process is used to improve performance and structure or other attributes, or to adapt the product to a changed environment, according to requests from users.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          May 25, 2004 12:00 AM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>POLI/USP</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/MSc_PROCESSO_TRANSFORMACAO_ARQUITETURAS_SISTEMAS_LEGADOS_DEFESA" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="http://www.rodrigosouza.net.br/publication/">filtering publications</a>.
+  </div>
+</div>
+
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/trends-entropy_raa/" >Trends of stellar entropy along stellar evolution</a>
+    </h3>
+
+    
+    <a href="/publication/trends-entropy_raa/" class="summary-link">
+      <div class="article-style">
+        This paper is devoted to discussing the difference in the thermodynamic entropy budget per baryon in each type of stellar object found …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >M.G.B. de Avellar</span>, <span >R.A. de Souza</span>, <span >J.E. Horvath</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1509.05262" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -522,61 +2305,201 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.raa-journal.org/raa/index.php/raa/article/view/1837">
-  RAA
-</a>
 
-</p>
-</li>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Cold Quark Matter in Nature: Theory and Observations</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/publication/phd_thesis/">
-  Details
-</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/phd_thesis.pdf">
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/phd_thesis/" >Cold Quark Matter in Nature: Theory and Observations</a>
+    </h3>
+
+    
+    <a href="/publication/phd_thesis/" class="summary-link">
+      <div class="article-style">
+        See bellow.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Rodrigo Alvares de Souza</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/phd_thesis.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/rsouza01/tovsolver">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/rsouza01/tovsolver" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.iag.usp.br/pos/astronomia/portugues/dissertacoestestes/exist%C3%AAncia-de-mat%C3%A9ria-de-quarks-fria-na-natureza-modelos-e-o">
-  IAG/USP
-</a>
 
-</p>
-</li>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Evolution of stellar entropy</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/publication/entropy_astronomische_nachrichten/">
-  Details
-</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://onlinelibrary.wiley.com/doi/10.1002/asna.201512234/epdf">
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/entropy_astronomische_nachrichten/" >Evolution of stellar entropy</a>
+    </h3>
+
+    
+    <a href="/publication/entropy_astronomische_nachrichten/" class="summary-link">
+      <div class="article-style">
+        An appraisal of the behavior of stellar entropy along stellar evolution is made. It is shown that the entropy per baryon of a star of a …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >R.A. de Souza</span>, <span >M.G.B. de Avellar</span>, <span >J.E. Horvath</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://onlinelibrary.wiley.com/doi/10.1002/asna.201512234/epdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -586,24 +2509,6 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://onlinelibrary.wiley.com/wol1/doi/10.1002/asna.201512234/abstract">
-  AN
-</a>
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Information theoretical methods as discerning quantifiers of the equations of state of neutron stars</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/publication/info_theoretical_eoss_pla/">
-  Details
-</a>
 
 
 
@@ -612,27 +2517,179 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.sciencedirect.com/science/article/pii/S0375960114010159">
-  PLA
-</a>
 
-</p>
-</li>
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Reducing the parameter space for unparticle-inspired models using white dwarf masses</span>
-  <p>
+    
+      
+        
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/publication/unparticles/">
-  Details
-</a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1206.2784">
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/info_theoretical_eoss_pla/" >Information theoretical methods as discerning quantifiers of the equations of state of neutron stars</a>
+    </h3>
+
+    
+    <a href="/publication/info_theoretical_eoss_pla/" class="summary-link">
+      <div class="article-style">
+        In this work we use the statistical measures of information entropy, disequilibrium and complexity to discriminate different approaches …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >M.G.B. de Avellar</span>, <span >R.A. de Souza</span>, <span >J.E. Horvath</span>, <span >D.M. Paret</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/unparticles/" >Reducing the parameter space for unparticle-inspired models using white dwarf masses</a>
+    </h3>
+
+    
+    <a href="/publication/unparticles/" class="summary-link">
+      <div class="article-style">
+        Based on astrophysical constraints derived from Chandrasekhar’s mass limit for white dwarfs, we study the effects of the model on the …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Rodrigo Alvares de Souza</span>, <span >J. E. Horvath</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1206.2784" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -642,29 +2699,6 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.86.027502">
-  Phys.Rev.D 
-</a>
-
-</p>
-</li>
-
-      
-      <li itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Um processo de transformação de arquiteturas de sistemas legados baseado em Reengenharia</span>
-  <p>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/publication/msc_dissertation/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/msc_dissertation.md">
-  PDF
-</a>
 
 
 
@@ -672,11 +2706,29 @@
 
 
 
-</p>
-</li>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
 
       
-    </ul>
+    
+
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
     
 
   </div>
@@ -687,239 +2739,107 @@
 
   
   
-  <section id="talks" class="home-section">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
     <div class="container">
       
 
 
 
 
+
+
+
+
+
+
+  
+
+
+
+
+
+
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Talks</h1>
-    
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Popular Topics</h1>
     
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-12 col-lg-8">
     
 
     
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
 
-    <h3 class="article-title" itemprop="name">
-      <a href="http://www.rodrigosouza.net.br/talk/grhafite_2016/" itemprop="url">Cold Quark Matter in the Universe</a>
-    </h3>
-
-    <div class="talk-abstract" itemprop="text">
       
       
       
-    </div>
-
-    <div class="talk-event">
-      
-        GRHAFITE Seminary
-      
-    </div>
-
-    <div class="talk-links">
-      
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/talk/grhafite_2016/">
-  Details
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/talk_grhafite_2016.pdf">
-  Slides
-</a>
-
-
-
-
-    </div>
-
-  </div>
-</div>
-
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    <h3 class="article-title" itemprop="name">
-      <a href="http://www.rodrigosouza.net.br/talk/phd_thesis_defense/" itemprop="url">Existence of Cold Quark Matter in the Universe: Models and Observations</a>
-    </h3>
-
-    <div class="talk-abstract" itemprop="text">
       
       
       
-    </div>
 
-    <div class="talk-event">
-      
-        PhD Thesis Defense
-      
-    </div>
-
-    <div class="talk-links">
-      
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/talk/phd_thesis_defense/">
-  Details
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/phd_defense_slides.pdf">
-  Slides
-</a>
-
-
-
-
-    </div>
-
-  </div>
-</div>
-
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    <h3 class="article-title" itemprop="name">
-      <a href="http://www.rodrigosouza.net.br/talk/debugging_2014/" itemprop="url">Debugging - Hints and techniques</a>
-    </h3>
-
-    <div class="talk-abstract" itemprop="text">
-      
-      
-      
-    </div>
-
-    <div class="talk-event">
-      
-        Astroinformatics Seminar
-      
-    </div>
-
-    <div class="talk-links">
-      
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/talk/debugging_2014/">
-  Details
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/DEBUGGING_2014.pdf">
-  Slides
-</a>
-
-
-
-
-    </div>
-
-  </div>
-</div>
-
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    <h3 class="article-title" itemprop="name">
-      <a href="http://www.rodrigosouza.net.br/talk/complexity_neutron_stars_firenze/" itemprop="url">Statistical measure of complexity in compact stars with global charge neutrality</a>
-    </h3>
-
-    <div class="talk-abstract" itemprop="text">
-      
-      
-      
-    </div>
-
-    <div class="talk-event">
-      
-        The Structure and Signals of Neutron Stars, from Birth to Death
-      
-    </div>
-
-    <div class="talk-links">
-      
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/talk/complexity_neutron_stars_firenze/">
-  Details
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/complexity_in_compact_stars_with_global_charge_neutrality_Rodrigo_Souza.pdf">
-  Slides
-</a>
-
-
-
-
-    </div>
-
-  </div>
-</div>
-
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    <h3 class="article-title" itemprop="name">
-      <a href="http://www.rodrigosouza.net.br/talk/msc_dissertation_defense/" itemprop="url">Um processo de transformação de arquiteturas de Sistemas Legados baseado em Reengenharia</a>
-    </h3>
-
-    <div class="talk-abstract" itemprop="text">
-      
-      
-      
-    </div>
-
-    <div class="talk-event">
-      
-        MSc Defense
-      
-    </div>
-
-    <div class="talk-links">
-      
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/talk/msc_dissertation_defense/">
-  Details
-</a>
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.rodrigosouza.net.br/pdf/MSc_PROCESSO_TRANSFORMACAO_ARQUITETURAS_SISTEMAS_LEGADOS_DEFESA">
-  Slides
-</a>
-
-
-
-
-    </div>
-
-  </div>
-</div>
-
-    
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/tag/github/" style="font-size:1.5202086796428946rem">github</a>
+        
+          
+          
+          
+          <a href="/tag/iot/" style="font-size:0.7rem">iot</a>
+        
+          
+          
+          
+          <a href="/tag/open-source/" style="font-size:1.5202086796428946rem">open source</a>
+        
+          
+          
+          
+          <a href="/tag/physics/" style="font-size:1.5202086796428946rem">physics</a>
+        
+          
+          
+          
+          <a href="/tag/quantum-physics/" style="font-size:0.7rem">quantum physics</a>
+        
+          
+          
+          
+          <a href="/tag/relativity/" style="font-size:0.7rem">relativity</a>
+        
+      </div>
     
 
   </div>
@@ -930,195 +2850,154 @@
 
   
   
-  <section id="projects" class="home-section">
-    <div class="container">
-      
+  
 
+  
 
+  
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Projects</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
+  
 
-    <div class="project-toolbar">
-      <div id="filters">
-        <div class="btn-toolbar">
-          <div class="btn-group">
-          
-            <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
-          
-            <a href="#" data-filter=".qcd" class="btn btn-primary btn-large">QCD</a>
-          
-            <a href="#" data-filter=".neutron_stars" class="btn btn-primary btn-large">Neutron Stars</a>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-
-    <div id="container-projects" class="row isotope">
-
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item neutron_stars">
-        <div class="card">
-          
-          <a href="http://www.rodrigosouza.net.br/project/neutron_stars/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/foxneutronartwork.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://www.rodrigosouza.net.br/project/neutron_stars/" >Neutron Stars</a></h4>
-            <div class="card-desription">
-              <p>My research about neutron stars and the search for an equation of state.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item github programming">
-        <div class="card">
-          
-          <a href="http://www.rodrigosouza.net.br/project/github/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/it-crowd-pixels.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://www.rodrigosouza.net.br/project/github/" >Projects on Github</a></h4>
-            <div class="card-desription">
-              <p>All sort of computational stuff.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item qcd">
-        <div class="card">
-          
-          <a href="http://www.rodrigosouza.net.br/project/qcd/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/particles-1.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://www.rodrigosouza.net.br/project/qcd/" >QCD</a></h4>
-            <div class="card-desription">
-              <p>Condensates, confinement and color supercondutivity.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
+  
 
   
   
-  <section id="links" class="home-section">
-    <div class="container">
-      
 
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Links</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <ul>
-<li><a href="https://www.physicsforums.com/" target="_blank">Physics Forums</a></li>
-<li><a href="https://arxiv.org/" target="_blank">Arxiv</a></li>
-<li><a href="https://people.phys.ethz.ch/~pheno/QCDcourse/" target="_blank">Introduction to QCD</a></li>
-<li><a href="https://people.phys.ethz.ch/~pheno/AFTcourse/" target="_blank">Advanced Field Theory</a></li>
-<li><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank">3Blue1Brown</a></li>
-</ul>
-
-  </div>
-</div>
-
-    </div>
-  </section>
+  
 
   
   
-  <section id="contact" class="home-section">
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
     <div class="container">
       
 
 
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>Contact</h1>
     
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-12 col-lg-8">
     
 
-    <ul class="fa-ul" itemscope>
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/rsouza01@gmail.com"  >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul">
+
+      
+
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">Eindhoven, NL </span>
+        </li>
+      
+
+      
+
+      
 
       
       <li>
-        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:rsouza01@gmail.com">rsouza01@gmail.com</a></span>
+        <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
+        <a href="https://calendly.com" target="_blank" rel="noopener">Book an appointment</a>
       </li>
       
 
       
-      <li>
-        <i class="fa-li fa fa-lock fa-2x" aria-hidden="true"></i>
-        <span>
-          <a href="https://keybase.io/rsouza01" target="_blank">@rsouza01</a> on Keybase.
-        </span>
-      </li>
       
-
       
-
       
-      <li>
-        <i class="fa-li fa fa-skype fa-2x" aria-hidden="true"></i>
-        <span><a href="skype:rodrigo.souza.73?call">rodrigo.souza.73</a></span>
-      </li>
       
-
+        
       
-
+      
+      
+      
       
       <li>
-        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">São Paulo, BR</span>
+        <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
+        <a href="skype:rodrigo.souza.73" >Skype Me</a>
       </li>
       
-
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <i class="fa-li fas fa-comments fa-2x" aria-hidden="true"></i>
+        <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on Forum</a>
+      </li>
       
 
     </ul>
+
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="51.441287">
+      <input id="map-lng" value="5.476788">
+      <input id="map-dir" value="Eindhoven, NL ">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
 
   </div>
 </div>
@@ -1128,78 +3007,193 @@
 
 
 
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
+      
 
-      &copy; 2018 Rodrigo Souza &middot; 
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
 
-    </p>
-  </div>
-</footer>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/js/jquery-1.12.3.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/isotope.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
-    <script src="/js/hugo-academic.js"></script>
     
 
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
     
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-99792574-1', 'auto');
-        ga('send', 'pageview');
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
 
-         
-        var links = document.querySelectorAll('a');
-        Array.prototype.map.call(links, function(item) {
-            if (item.host != document.location.host) {
-                item.addEventListener('click', function() {
-                    var action = item.getAttribute('data-action') || 'follow';
-                    ga('send', 'event', 'outbound', action, item.href);
-                });
-            }
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
         });
+      }
     </script>
     
 
     
     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
       
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
     
     
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-    </script>
-    <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+    
+    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
+
     
 
-  </body>
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Rodrigo Souza
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
-

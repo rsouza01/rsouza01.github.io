@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/publication-type/7/</link>
+      <atom:link href="http://www.rodrigosouza.net.br/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Rodrigo Souza</copyright><lastBuildDate>Thu, 05 May 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.rodrigosouza.net.br/img/portrait-2.png</url>
+      <title>7</title>
+      <link>http://www.rodrigosouza.net.br/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Cold Quark Matter in Nature: Theory and Observations</title>
+      <link>http://www.rodrigosouza.net.br/publication/phd_thesis/</link>
+      <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://www.rodrigosouza.net.br/publication/phd_thesis/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;The main goal of this work is the study of cold quark matter in neutron stars from phase transitions of hadronic matter to quark matter. In this work, after presenting important aspects of stellar evolution and the theory of neutron stars, we review two frameworks designed to calculate the structure of the stars in the relativistic regime: the canonical Tolman-Oppenheimer-Volkoff equations and the so called &amp;lsquo;new paradigm&amp;rsquo; Einstein-Maxwell-Fermi, where we conclude that the Einstein-Maxwell-Fermi model has some inconsistencies, being inadequate for the treatment of stars with hybrid equation of state, and the fact that using the atomic model as a starting point already has the property of the local non-neutrality as a built-in feature.&lt;/p&gt;
+&lt;p&gt;To describe the hadronic phase in this work we studied the SWRDP model, which considers hyperons and the effects of many-body forces simulated by the nonlinear selfcoupling and the meson-meson contributions. The matter of quarks was described by two approaches: the QCD Mean Field Theory (MFTQCD) and QCD Infrared Extension (QCDIRE). The approach used to make the connection between hadronic matter and the cold quark matter was a first order phase transition using the Maxwell construction. For the SWRDP+MFTQCD combination, the phase transition is possible, since both conditions for the Maxwell construction were met for a set of parameters. For the SWRDP+QCDIRE combination, it was not possible to obtain a hybrid equation of state. Next, the hybrid state equations were integrated using the Tolman-Oppenheimer-Volkoff equations and obtained maximum masses for some sets of parameters that are in agreement with observations of pulsars PSR J1614-2230
+$(M=1.97 \pm 0.04 ; M_{\odot})$ and PSR J0348+0432 ($M = 2.01 \pm 0.04 M_{\odot}$).&lt;/p&gt;
+&lt;p&gt;Regarding the parameters, we conclude that only the equations of state which present stiff hadronic matter and soft quark cores (within the parameter space) are able to generate maximum masses high enough to agree with observations. Regarding the QCDIRE model, the equation of state does not allow phase transitions given the hadronic model used, and also does not allow masses larger than $0.66 M_{\odot}$.&lt;/p&gt;
+&lt;p&gt;This may be due to the fact that there is no ad hoc interactions in the model, but also indicates that accounting for confinement does not guarantee applicable equations of state in realistic situations.&lt;/p&gt;
+&lt;p&gt;In this work we present some results regarding the entropy of the neutron stars, followed by a introduction to information theory, which we used to evaluate the preference of different equations of state by Nature. We concluded that models with quark cores where the cold quark matter is characterized by low interaction between hard gluons and quarks, combined with stiffer hadronic state equations are more likely to occur in Nature from the perspective of information theory.&lt;/p&gt;
+&lt;p&gt;Finally, we show the studies about the unparticles model and the results with respect to the stars Procyon B and Stein 2051B, along with the procedure we used to obtain the mass of the propagator of the theory using the Chandrasekhar limit for white dwarfs.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

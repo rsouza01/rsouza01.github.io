@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iot | Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/tag/iot/</link>
+      <atom:link href="http://www.rodrigosouza.net.br/tag/iot/index.xml" rel="self" type="application/rss+xml" />
+    <description>iot</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Rodrigo Souza</copyright><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.rodrigosouza.net.br/img/portrait-2.png</url>
+      <title>iot</title>
+      <link>http://www.rodrigosouza.net.br/tag/iot/</link>
+    </image>
+    
+    <item>
+      <title>IoT-Stuff</title>
+      <link>http://www.rodrigosouza.net.br/project/iot-stuff/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.rodrigosouza.net.br/project/iot-stuff/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

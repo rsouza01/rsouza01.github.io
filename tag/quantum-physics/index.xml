@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantum physics | Rodrigo Souza&#39;s Den</title>
+    <link>http://www.rodrigosouza.net.br/tag/quantum-physics/</link>
+      <atom:link href="http://www.rodrigosouza.net.br/tag/quantum-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>quantum physics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Rodrigo Souza</copyright><lastBuildDate>Thu, 18 Jan 2018 22:35:34 -0300</lastBuildDate>
+    <image>
+      <url>http://www.rodrigosouza.net.br/img/portrait-2.png</url>
+      <title>quantum physics</title>
+      <link>http://www.rodrigosouza.net.br/tag/quantum-physics/</link>
+    </image>
+    
+    <item>
+      <title>Commutators in classical and quantum physics</title>
+      <link>http://www.rodrigosouza.net.br/post/physics/commutators/</link>
+      <pubDate>Thu, 18 Jan 2018 22:35:34 -0300</pubDate>
+      <guid>http://www.rodrigosouza.net.br/post/physics/commutators/</guid>
+      <description>&lt;p&gt;I intend on publishing my thoughts about commutators here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

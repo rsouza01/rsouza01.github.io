@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Rodrigo Souza&#39;s Den</title>
+    <title>Categories | Rodrigo Souza&#39;s Den</title>
     <link>http://www.rodrigosouza.net.br/categories/</link>
-    <description>Recent content in Categories on Rodrigo Souza&#39;s Den</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
-    
-	<atom:link href="http://www.rodrigosouza.net.br/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="http://www.rodrigosouza.net.br/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Rodrigo Souza</copyright>
+    <image>
+      <url>http://www.rodrigosouza.net.br/img/portrait-2.png</url>
+      <title>Categories</title>
+      <link>http://www.rodrigosouza.net.br/categories/</link>
+    </image>
     
   </channel>
 </rss>

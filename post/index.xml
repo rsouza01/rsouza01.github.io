@@ -1,36 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>_index on Rodrigo Souza&#39;s Den</title>
+    <title>Posts | Rodrigo Souza&#39;s Den</title>
     <link>http://www.rodrigosouza.net.br/post/</link>
-    <description>Recent content in _index on Rodrigo Souza&#39;s Den</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Rodrigo Souza</copyright>
-    <lastBuildDate>Tue, 13 Jun 2017 22:37:43 -0300</lastBuildDate>
+      <atom:link href="http://www.rodrigosouza.net.br/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Rodrigo Souza</copyright><lastBuildDate>Thu, 18 Jan 2018 22:35:34 -0300</lastBuildDate>
+    <image>
+      <url>http://www.rodrigosouza.net.br/img/portrait-2.png</url>
+      <title>Posts</title>
+      <link>http://www.rodrigosouza.net.br/post/</link>
+    </image>
     
-	<atom:link href="http://www.rodrigosouza.net.br/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Commutators in classical and quantum physics</title>
+      <link>http://www.rodrigosouza.net.br/post/physics/commutators/</link>
+      <pubDate>Thu, 18 Jan 2018 22:35:34 -0300</pubDate>
+      <guid>http://www.rodrigosouza.net.br/post/physics/commutators/</guid>
+      <description>&lt;p&gt;I intend on publishing my thoughts about commutators here.&lt;/p&gt;
+</description>
+    </item>
     
+    <item>
+      <title>Four vectors deep dive</title>
+      <link>http://www.rodrigosouza.net.br/post/physics/four-vectors/</link>
+      <pubDate>Thu, 18 Jan 2018 22:35:34 -0300</pubDate>
+      <guid>http://www.rodrigosouza.net.br/post/physics/four-vectors/</guid>
+      <description>&lt;p&gt;I intend on publishing my thoughts about four vector here.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Leonard Susskind Physical Minimum Lectures on Youtube.</title>
-      <link>http://www.rodrigosouza.net.br/post/lectures/</link>
+      <link>http://www.rodrigosouza.net.br/post/video-lectures/susskind-lectures/</link>
       <pubDate>Thu, 18 Jan 2018 22:35:34 -0300</pubDate>
-      
-      <guid>http://www.rodrigosouza.net.br/post/lectures/</guid>
-      <description>Leo Susskind, one of the bright ones that brought us string theory, has an extensive collection of academic lectures as part of their Stanford&amp;rsquo;s Continuing Studies Series. I am pointing here to a web resource collecting all these lectures.
-https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/
-Professor Susskind has also a blog at
-http://susskindsblogphysicsforeveryone.blogspot.com</description>
+      <guid>http://www.rodrigosouza.net.br/post/video-lectures/susskind-lectures/</guid>
+      <description>&lt;p&gt;Leo Susskind, one of the bright ones that brought us string theory, has an extensive collection of academic lectures as part of their Stanford&amp;rsquo;s Continuing Studies Series. I am pointing here to a web resource collecting all these lectures.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/&#34;&gt;https://glenmartin.wordpress.com/home/leonard-susskinds-online-lectures/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Professor Susskind has also a blog at&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://susskindsblogphysicsforeveryone.blogspot.com&#34;&gt;http://susskindsblogphysicsforeveryone.blogspot.com&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>My first post!</title>
       <link>http://www.rodrigosouza.net.br/post/first_post/</link>
       <pubDate>Tue, 13 Jun 2017 22:35:34 -0300</pubDate>
-      
       <guid>http://www.rodrigosouza.net.br/post/first_post/</guid>
-      <description>Nothing much to add for the moment, just playing around with the authoring tool and Wercker.</description>
+      <description>&lt;p&gt;Nothing much to add for the moment, just playing around with the authoring tool and 
+&lt;a href=&#34;https://app.wercker.com/rsouza01/rsouza01.github.src&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wercker&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
